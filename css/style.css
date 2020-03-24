@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@font-face{font-family:Mitr-Bold;src:url(fonts/Mitr-Bold.ttf) format("truetype")}
+@font-face{font-family:Mitr-Light;src:url(fonts/Mitr-Light.ttf) format("truetype")}
+@font-face{font-family:Mitr-Medium;src:url(fonts/Mitr-Medium.ttf) format("truetype")}
+@font-face{font-family:Mitr-Regular;src:url(fonts/Mitr-Regular.ttf) format("truetype")}
+
+html, body {
+	color: #707070;
+	font-family: Mitr-Light;
+	font-size: 14px;
+}
+
+.bg-comfe {
+	background-color: #005744;
+}
+
+.card {
+	min-width: 20rem;
+	max-width: 25rem;
+	-webkit-box-shadow: 0px 1px 3px 1px rgba(105, 105, 105, 0.5);
+    -moz-box-shadow: 0px 1px 3px 1px rgba(105, 105, 105, 0.5);
+    box-shadow: 0px 1px 3px 1px rgba(105, 105, 105, 0.5);
+	-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.card-title {
+    color: #005744;
+	text-transform: uppercase;
+    font-family: Mitr-Medium;
+}
+
+.page-title {
+    color: #005744;
+    font-family: Mitr-Regular;
+}
